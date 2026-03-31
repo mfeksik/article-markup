@@ -1,8 +1,54 @@
 /* Тут пиши основные стили */
+nav {
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    padding-left: 38px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+nav > ul > li > a {
+    font-family:LucidaGrande;
+    font-size:24px;
+    text-align:left;
+    line-height:36px;
+}
+
+
+.selected-menu {
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.icon {
+    padding-top: 10px;
+    padding-left: 38px;
+    padding-bottom: 10px;
+}
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
