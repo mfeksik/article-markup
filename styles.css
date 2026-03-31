@@ -59,8 +59,18 @@ nav > ul > li > a {
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:33px;
+}
 
-    padding-top: 10;
+.code {
+    font-family: "Courier New", monospace;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+tt {
+    background-color: rgb(240, 240, 240);
 }
 
 .topic {
